@@ -552,7 +552,7 @@ function initFeatureModal() {
 
   // Placeholder for later: set this to your n8n webhook URL to swap
   // the demo response below for a real one. Left empty for now.
-  const N8N_WEBHOOK_URL = "";
+  const N8N_WEBHOOK_URL = "http://localhost:5678/webhook/fiowai-chat";
 
   // Suggested prompts just fill the input — they do not auto-send.
   if (suggestions) {
